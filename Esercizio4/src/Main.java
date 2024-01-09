@@ -11,6 +11,7 @@ public class Main {
         System.out.print("Inserisci un numero");
         int input = scanner.nextInt();
         rovescia(input);
+        scanner.close();
 
 
     }
